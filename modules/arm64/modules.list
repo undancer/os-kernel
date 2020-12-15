@@ -30,8 +30,6 @@ kernel/drivers/net/ethernet/mellanox/mlx4/mlx4_en.ko
 kernel/drivers/net/ethernet/mellanox/mlx5/core/mlx5_core.ko
 kernel/drivers/net/ethernet/realtek/8139cp.ko
 kernel/drivers/net/geneve.ko
-kernel/drivers/net/phy/mdio-cavium.ko
-kernel/drivers/net/phy/mdio-thunder.ko
 kernel/drivers/scsi/hpsa.ko
 kernel/drivers/scsi/iscsi_tcp.ko
 kernel/drivers/scsi/smartpqi/smartpqi.ko
@@ -89,7 +87,6 @@ kernel/net/mpls/mpls_iptunnel.ko
 kernel/net/netfilter/ipvs/ip_vs_dh.ko
 kernel/net/netfilter/ipvs/ip_vs_fo.ko
 kernel/net/netfilter/ipvs/ip_vs_ftp.ko
-kernel/net/netfilter/ipvs/ip_vs.ko
 kernel/net/netfilter/ipvs/ip_vs_lblc.ko
 kernel/net/netfilter/ipvs/ip_vs_lblcr.ko
 kernel/net/netfilter/ipvs/ip_vs_lc.ko
