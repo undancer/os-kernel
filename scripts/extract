@@ -18,7 +18,7 @@ if [ ! -e ${DIR} ]; then
     trap "rm -rf ${TEMP}" exit
 
     ls -lah ${ARTIFACTS}/${KERNEL_TAR}
-    tar xf ${ARTIFACTS}/${KERNEL_TAR} -C ${TEMP}/${DIR} --strip-components=1
+    tar Jxf ${ARTIFACTS}/${KERNEL_TAR} -C ${TEMP}/${DIR} --strip-components=1
     mv ${TEMP}/${DIR} ${DIR}
 fi
 
