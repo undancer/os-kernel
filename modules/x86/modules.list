@@ -325,6 +325,8 @@ kernel/fs/btrfs/btrfs.ko
 kernel/fs/ceph/ceph.ko
 kernel/fs/cifs/cifs.ko
 kernel/fs/fat/msdos.ko
+kernel/fs/hfs/hfs.ko
+kernel/fs/hfsplus/hfsplus.ko
 kernel/fs/isofs/isofs.ko
 kernel/fs/lockd/lockd.ko
 kernel/fs/nfs/blocklayout/blocklayoutdriver.ko

@@ -2678,8 +2678,6 @@ kernel/fs/f2fs/f2fs.ko
 kernel/fs/freevxfs/freevxfs.ko
 kernel/fs/fuse/cuse.ko
 kernel/fs/gfs2/gfs2.ko
-kernel/fs/hfs/hfs.ko
-kernel/fs/hfsplus/hfsplus.ko
 kernel/fs/hpfs/hpfs.ko
 kernel/fs/jffs2/jffs2.ko
 kernel/fs/jfs/jfs.ko
