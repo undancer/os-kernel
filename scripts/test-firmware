@@ -7,7 +7,7 @@ FIRMWARE=$(readlink -f firmware/${KERNEL_ARCH}/firmware)
 echo "FIRMWARE test: $FIRMWARE"
 
 if [ ! -e linux-firmware ]; then
-    git clone git://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git
+    git clone https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git
     pushd linux-firmware
     git checkout -b ${FIRMWARE_TAG} ${FIRMWARE_TAG}
     popd
