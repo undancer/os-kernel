@@ -116,7 +116,6 @@ kernel/drivers/edac/i82975x_edac.ko
 kernel/drivers/edac/sb_edac.ko
 kernel/drivers/edac/x38_edac.ko
 kernel/drivers/firmware/dmi-sysfs.ko
-kernel/drivers/firmware/efi/efi-pstore.ko
 kernel/drivers/gpu/drm/nouveau/nouveau.ko
 kernel/drivers/hid/hid-a4tech.ko
 kernel/drivers/hid/hid-apple.ko
@@ -246,7 +245,6 @@ kernel/drivers/net/macvlan.ko
 kernel/drivers/net/macvtap.ko
 kernel/drivers/net/mdio/mdio-thunder.ko
 kernel/drivers/net/mdio/mdio-gpio.ko
-kernel/drivers/net/mdio/mdio-bitbang.ko
 kernel/drivers/net/mdio/mdio-cavium.ko
 kernel/drivers/net/phy/amd.ko
 kernel/drivers/net/phy/aquantia.ko
@@ -647,3 +645,4 @@ kernel/net/unix/unix_diag.ko
 kernel/net/vmw_vsock/vmw_vsock_virtio_transport.ko
 kernel/net/vmw_vsock/vmw_vsock_vmci_transport.ko
 kernel/net/xfrm/xfrm_user.ko
+kernel/kernel/bpf/preload/bpf_preload.ko
