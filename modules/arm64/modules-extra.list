@@ -31,7 +31,6 @@ kernel/drivers/net/ethernet/hisilicon/hns/hns_enet_drv.ko
 kernel/drivers/net/ethernet/hisilicon/hns_mdio.ko
 kernel/drivers/net/ethernet/intel/iavf/iavf.ko
 kernel/drivers/net/mdio/mdio-thunder.ko
-kernel/drivers/net/mdio/mdio-cavium.ko
 kernel/drivers/net/phy/smsc.ko
 kernel/drivers/net/ppp/bsd_comp.ko
 kernel/drivers/net/ppp/ppp_async.ko

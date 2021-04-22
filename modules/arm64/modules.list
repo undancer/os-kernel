@@ -47,6 +47,7 @@ kernel/fs/nfsd/nfsd.ko
 kernel/fs/nfs/filelayout/nfs_layout_nfsv41_files.ko
 kernel/fs/nfs/flexfilelayout/nfs_layout_flexfiles.ko
 kernel/fs/nfs/nfsv3.ko
+kernel/kernel/bpf/preload/bpf_preload.ko
 kernel/net/bridge/netfilter/ebt_802_3.ko
 kernel/net/bridge/netfilter/ebtable_broute.ko
 kernel/net/bridge/netfilter/ebtable_filter.ko

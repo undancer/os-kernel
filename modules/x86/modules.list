@@ -243,9 +243,9 @@ kernel/drivers/net/ipvlan/ipvlan.ko
 kernel/drivers/net/macsec.ko
 kernel/drivers/net/macvlan.ko
 kernel/drivers/net/macvtap.ko
-kernel/drivers/net/mdio/mdio-thunder.ko
-kernel/drivers/net/mdio/mdio-gpio.ko
 kernel/drivers/net/mdio/mdio-cavium.ko
+kernel/drivers/net/mdio/mdio-gpio.ko
+kernel/drivers/net/mdio/mdio-thunder.ko
 kernel/drivers/net/phy/amd.ko
 kernel/drivers/net/phy/aquantia.ko
 kernel/drivers/net/phy/at803x.ko
@@ -340,6 +340,7 @@ kernel/fs/quota/quota_tree.ko
 kernel/fs/quota/quota_v2.ko
 kernel/fs/udf/udf.ko
 kernel/fs/xfs/xfs.ko
+kernel/kernel/bpf/preload/bpf_preload.ko
 kernel/lib/ts_bm.ko
 kernel/lib/ts_fsm.ko
 kernel/lib/ts_kmp.ko
@@ -645,4 +646,3 @@ kernel/net/unix/unix_diag.ko
 kernel/net/vmw_vsock/vmw_vsock_virtio_transport.ko
 kernel/net/vmw_vsock/vmw_vsock_vmci_transport.ko
 kernel/net/xfrm/xfrm_user.ko
-kernel/kernel/bpf/preload/bpf_preload.ko
